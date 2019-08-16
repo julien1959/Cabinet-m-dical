@@ -10,27 +10,53 @@
 
     <body>
         <header>
-            <img src="" alt="">
+            <img src="images/logo.png" alt="logo centre médical">
             <p></p>
-            <nav>
-                <li><a href=""></a></li>                
-                <li><a href=""></a></li>                
-                <li><a href=""></a></li>                
-                <li><a href=""></a></li>                
+            <nav>                              
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="horaires.html">Horaires</a></li>                
+                <li><a href="à_propos.html">À propos</a></li>                
+                <li><a href="urgence.html">Urgence</a></li>              
+                <li><a href="contact.html">Contact</a></li>                
             </nav>
         </header>
 
         <main>
-        <iframe src="" frameborder="0"></iframe>
-        <form action=""></form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5248.778511175981!2d2.310636103339168!3d48.869855597091615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fcd2f97487d%3A0x912d41ddb8747ffa!2s14+Rue+du+Faubourg+Saint-Honor%C3%A9%2C+75008+Paris!5e0!3m2!1sfr!2sfr!4v1565977515292!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+            <form action="">
+                <fieldset>
+                    <legend>Prenez rendez vous en ligne</legend>
+                        <p>
+                        <label for="praticien">Choisissez votre     praticien:</label><br>
+                        <select name="praticien" id="praticien">
+                            <option value="medecin">Médecin         généraliste</option>
+                            <option value="dentiste">Dentiste</option>
+                        </select>
+                        </p>
+                        <p>
+                        <label for="name">Nom:</label><br>
+                        <input type="text">
+                        </p>
+                        <p>
+                        <label for="first_name">Prénom:</label><br>
+                        <input type="text">                
+                        </p>
+                        <p>
+                        <label for="commentaire">Commentaire:</label><br>
+                        <textarea name="commentaire"    id="commentaire"   cols="30" rows="10"></textarea>
+                        </p>                        
+                        <a href="#">Envoyer</a>
+                </fieldset>
+            </form>
         </main>
 
         <footer>
            <nav>
-               <li><a href=""></a></li>
-               <li><a href=""></a></li>
-               <li><a href=""></a></li>
-               <li><a href=""></a></li>
+                <li><a href="#"></a><img src="images/logo_facebook.png" alt="logo facebook"></li>
+                <li><a href="#"></a><img src="images/logo_twitter.png" alt="logo twitter"></li>
+                <li><a href="#"></a><img src="images/logo_google+.png" alt="logo google+"></li>
+                <li><a href="#"></a><img src="images/logo_rss.png" alt="logo rss"></li>                  
            </nav>
         </footer>    
     </body>
