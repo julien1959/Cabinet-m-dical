@@ -2,7 +2,7 @@
 
 **Site vitrine cabinet médical:**
 
-HTML, CSS, Flexbox et CSS Grid
+HTML, CSS Grid
 
 - une page d’accueil,
 - une page contact (formulaire avec choix destinataire) + plan
